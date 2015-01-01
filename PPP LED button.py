@@ -3,7 +3,7 @@ import time
 
 GPIO.setmode(GPIO.BOARD)    #use GPIO board numbers
 
-GPIO.setup(16, GPIO.OUT)    #set pin 11 as output (LED)
+GPIO.setup(16, GPIO.OUT)    #set pin 16 as output (LED)
 GPIO.setup(22, GPIO.IN)     #set pin 22 as input (button)
 
 while True:
